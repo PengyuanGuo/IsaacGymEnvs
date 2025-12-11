@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<robot name="object">
+  <link name="object">
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <!-- 高瘦型: 长(x)=0.04, 宽(y)=0.04, 高(z)=0.09 -->
+        <box size="0.04 0.04 0.09"/>
+      </geometry>
+      <material name="color3">
+        <color rgba="0.3 0.3 1.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.04 0.04 0.09"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <density value="567.0"/>
+    </inertial>
+  </link>
+</robot>
