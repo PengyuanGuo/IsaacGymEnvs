@@ -45,7 +45,7 @@ env:
   fallDistance: 0.24
   fallPenalty: 0.0
 
-  objectType: "egg" # can be block, egg or pen
+  objectType: "block" # can be block, egg or pen
   observationType: "full_state" # can be "openai", "full_no_vel", "full", "full_state"
   asymmetric_observations: False
   successTolerance: 0.1
@@ -55,12 +55,13 @@ env:
   asset:
     assetFileName: "mjcf/open_ai_assets/hand/shadow_hand.xml"
     # assetFileNameBlock: "urdf/objects/cube_multicolor.urdf"
-    # assetFileNameBlock: "urdf/ycb/011_banana/011_banana.urdf"
-    # assetFileNameBlock: "urdf/ycb/077_rubiks_cube/077_rubiks_cube.urdf"
-    assetFileNameBlock: "urdf/ycb/017_orange.urdf"
+    # assetFileNameBlock: "urdf/ycb/061_foam_brick.urdf"
+    assetFileNameBlock: "urdf/ycb/062_dice.urdf"
+    # assetFileNameBlock: "urdf/ycb/077_rubiks_cube.urdf"
     # assetFileNameEgg: "mjcf/open_ai_assets/hand/egg.xml"
-    # assetFileNameEgg: "urdf/ycb/056_tennis_ball/056_tennis_ball.urdf"
-    assetFileNameEgg: "urdf/ycb/017_orange.urdf"
+    # assetFileNameEgg: "urdf/ycb/056_tennis_ball.urdf"
+    # assetFileNameEgg: "urdf/ycb/013_apple.urdf"
+    assetFileNameEgg: "urdf/ycb/014_lemon.urdf"
     assetFileNamePen: "mjcf/open_ai_assets/hand/pen.xml"
 
   # set to True if you use camera sensors in the environment
