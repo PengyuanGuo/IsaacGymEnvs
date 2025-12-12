@@ -45,7 +45,7 @@ env:
   fallDistance: 0.24
   fallPenalty: 0.0
 
-  objectType: "pen" # can be block, egg or pen
+  objectType: "block" # can be block, egg or pen
   observationType: "full_state" # can be "openai", "full_no_vel", "full", "full_state"
   asymmetric_observations: False
   successTolerance: 0.1
@@ -145,7 +145,7 @@ task:
             # schedule_steps: 30000
       object:
         scale:
-          range: [0.95, 1.05]
+          range: [0.8, 1.2]
           operation: "scaling"
           distribution: "uniform"
           setup_only: True # Property will only be randomized once before simulation is started. See Domain Randomization Documentation for more info.

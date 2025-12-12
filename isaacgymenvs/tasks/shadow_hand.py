@@ -90,6 +90,7 @@ class ShadowHand(VecTask):
 
         self.asset_files_dict = {
             "block": "urdf/objects/cube_multicolor.urdf",
+            # "block": "urdf/ycb/010_potted_meat_can/010_potted_meat_can.urdf",
             "egg": "mjcf/open_ai_assets/hand/egg.xml",
             "pen": "mjcf/open_ai_assets/hand/pen.xml"
         }
