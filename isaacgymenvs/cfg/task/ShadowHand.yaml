@@ -49,14 +49,14 @@ env:
   observationType: "full_state" # can be "openai", "full_no_vel", "full", "full_state"
   asymmetric_observations: False
   successTolerance: 0.1
-  printNumSuccesses: False
+  printNumSuccesses: True
   maxConsecutiveSuccesses: 0
 
   asset:
     assetFileName: "mjcf/open_ai_assets/hand/shadow_hand.xml"
-    # assetFileNameBlock: "urdf/objects/cube_multicolor.urdf"
+    assetFileNameBlock: "urdf/objects/cube_multicolor.urdf"
     # assetFileNameBlock: "urdf/ycb/061_foam_brick.urdf"
-    assetFileNameBlock: "urdf/ycb/062_dice.urdf"
+    # assetFileNameBlock: "urdf/ycb/062_dice.urdf"
     # assetFileNameBlock: "urdf/ycb/077_rubiks_cube.urdf"
     # assetFileNameEgg: "mjcf/open_ai_assets/hand/egg.xml"
     # assetFileNameEgg: "urdf/ycb/056_tennis_ball.urdf"
