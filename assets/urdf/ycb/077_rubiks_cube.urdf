@@ -1,0 +1,21 @@
+<robot name="077_rubiks_cube">
+	<link name="_name">
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="077_rubiks_cube/google_16k/textured.obj" scale="1 1 1" />
+			</geometry>
+			<material name="texture">
+				<color rgba="1.0 1.0 1.0 1.0" />
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="077_rubiks_cube/google_16k/textured_vhacd.obj" scale="1 1 1" />
+			</geometry>
+		<origin xyz="0 0 0" rpy="0 0 0" /></collision>
+		<inertial>
+			<density value="567.0"/>
+		</inertial>
+	</link>
+</robot>
