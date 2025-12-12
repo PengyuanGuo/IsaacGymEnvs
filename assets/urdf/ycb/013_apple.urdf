@@ -3,7 +3,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<mesh filename="013_apple/google_16k/textured.obj" scale="1 1 1" />
+				<mesh filename="013_apple/google_16k/textured.obj" scale="0.9 0.9 0.9" />
 			</geometry>
 			<material name="texture">
 				<color rgba="1.0 1.0 1.0 1.0" />
@@ -11,7 +11,7 @@
 		</visual>
 		<collision>
 			<geometry>
-				<mesh filename="013_apple/google_16k/textured_vhacd.obj" scale="1 1 1" />
+				<mesh filename="013_apple/google_16k/textured_vhacd.obj" scale="0.9 0.9 0.9" />
 			</geometry>
 		<origin xyz="0 0 0" rpy="0 0 0" /></collision>
 		<inertial>

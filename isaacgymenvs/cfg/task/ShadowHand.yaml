@@ -45,7 +45,7 @@ env:
   fallDistance: 0.24
   fallPenalty: 0.0
 
-  objectType: "block" # can be block, egg or pen
+  objectType: "egg" # can be block, egg or pen
   observationType: "full_state" # can be "openai", "full_no_vel", "full", "full_state"
   asymmetric_observations: False
   successTolerance: 0.1
@@ -57,7 +57,7 @@ env:
     # assetFileNameBlock: "urdf/objects/cube_multicolor.urdf"
     # assetFileNameBlock: "urdf/ycb/061_foam_brick.urdf"
     # assetFileNameBlock: "urdf/ycb/062_dice.urdf"
-    assetFileNameBlock: "urdf/ycb/077_rubiks_cube.urdf"
+    # assetFileNameBlock: "urdf/ycb/077_rubiks_cube.urdf"
     # assetFileNameEgg: "mjcf/open_ai_assets/hand/egg.xml"
     # assetFileNameEgg: "urdf/ycb/056_tennis_ball.urdf"
     # assetFileNameEgg: "urdf/ycb/013_apple.urdf"
